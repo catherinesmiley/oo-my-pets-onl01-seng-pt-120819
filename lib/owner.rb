@@ -65,4 +65,9 @@ class Owner
     cats.each {|cat| cat.owner = nil}
   end
   
+  def list_pets
+    dogs.each {|dog| dog.name}
+    cats.each {|cat| cat.name}
+  end
+  
 end
