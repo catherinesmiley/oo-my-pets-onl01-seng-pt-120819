@@ -66,8 +66,8 @@ class Owner
   end
   
   def list_pets
-    dog_count = dogs.each {|dog| dog.count}
-    cat_count = cats.each {|cat| cat.count}
+    dog_count = dogs.length
+    cat_count = cats.length
     puts "I have #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
   
